@@ -1,0 +1,14 @@
+# 一行一个操作：insert/remove/update/rect/nearest
+rect,0,0,1000000,1000000
+rect,0,0,0,0
+rect,2000000,2000000,1000000,1000000
+nearest,0,0,2
+nearest,0,0,3
+nearest,0,0,4
+nearest,0,0,20
+nearest,1000000,1000000,3
+rect,-1000000,-1000000,0,0
+remove,9
+rect,-1000000,-1000000,0,0
+insert,12,0,0
+nearest,0,0,2
